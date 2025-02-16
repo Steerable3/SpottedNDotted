@@ -1,0 +1,85 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=applyToFlaggedMessages)(B9=dateReceived)(BA=ProtoThreadFlags)
+  (BB=X-GM-MSGID)(BC=X-GM-THRID)(BD=X-GM-LABELS)(BE=recipient_names)
+  (BF=keywords)(C0=ns:msg:db:row:scope:pending:all)
+  (C1=ns:msg:db:table:kind:pending)(C2=pseudoHdr)
+  (C3=ns:msg:db:row:scope:ops:all)(C4=ns:msg:db:table:kind:ops)(C5=op)
+  (C6=msgKey)(C7=opFlags)(C8=newFlags)(C9=srcFolderURI)(CA=srcMsgKey)
+  (CB=junkscore)(CC=account)(CD=imapFlags)(CE=storeToken)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=folderName)
+  (B0=indexingPriority)(B1=useServerRetention)(B2=retainBy)
+  (B3=daysToKeepHdrs)(B4=numHdrsToKeep)(B5=daysToKeepBodies)
+  (B6=useServerDefaults)(B7=cleanupBodies)>
+<(90=ffffff80)(8A=66013200)(81=0)(80=1)>
+[1:m(^9B^90)(^8F^90)(^91^8A)(^90=0)(^92=1)]
+<(9F=ffffff7f)(98=67ad8f5e)>[2:m(^9B^9F)(^8F^9F)(^91^98)(^90=0)(^92=1)]
+<(AC=ffffff7e)(A4=6495ff5d)>[3:m(^9B^AC)(^8F^AC)(^91^A4)(^90=0)(^92=1)]
+
+<(87="jakob.nikolic07@gmail.com" <jakob.nikolic07@gmail.com>)(88=)(89
+    =DS7P220MB083252FBE70606EF8CDEC72AA7362@DS7P220MB0832.NAMP220.PROD.OUTLOOK\
+.COM)(8B=4ab)(8C=ffffffff)(8E=1794485118422398085)(8F=0|)(94=81)(95
+    =Jakob <jakob.nikolic07@gmail.com>)(96=info@otpbanka.si)(97
+    =F64FFE21-08B4-46C8-882F-2D2B0F3A1BB1@gmail.com)(99=2ea)(9B
+    =1823922119905418065)(9C=0|info@otpbanka.si)(9D=31d)(9E=18)(A2
+    ="jakobnikolic27@gmail.com" <jakobnikolic27@gmail.com>)(A3
+    =DS7P220MB0832F5CC8E64F1D4DD5D6A3AA723A@DS7P220MB0832.NAMP220.PROD.OUTLOOK\
+.COM)(A5=4ba)(A7=1769526355316959621)(A8
+    =0|jakobnikolic27@gmail.com <jakobnikolic27@gmail.com>)(A9=832)
+  (AA=4ed)(AB=27)>
+{1:^80 {(k^96:c)(s=9)} 
+  [FFFFFF80(^88=1)(^82^87)(^81=)(^83^89)(^84=)(^B9^8A)(^86^8A)(^89=1)
+    (^87^8B)(^9A^8C)(^8E^90)(^BA=0)(^BB^8E)(^BC^8E)(^BD=)(^BE=0|)(^BF=)
+    (^C2=1)]
+  [FFFFFF7F(^88=81)(^82^95)(^85^96)(^81=)(^83^97)(^84=)(^B9^98)(^86^98)
+    (^89=1)(^87^99)(^9A^8C)(^8E^9F)(^BA=0)(^BB^9B)(^BC^9B)(^BD=)(^BE^9C)
+    (^BF=)(^CE=0)(^9D^9D)(^8B=18)(^C2=1)]
+  [FFFFFF7E(^88=81)(^82^87)(^85^A2)(^81=)(^83^A3)(^84=)(^B9^A4)(^86^A4)
+    (^89=1)(^87^A5)(^9A^8C)(^8E^AC)(^BA=0)(^BB^A7)(^BC^A7)(^BD=)(^BE^A8)
+    (^BF=)(^CE^A9)(^9D^AA)(^8B=27)(^C2=1)]}
+{FFFFFF7E:^80 {(k^97:c)(s=9)3:m } FFFFFF7E }
+{FFFFFF7F:^80 {(k^97:c)(s=9)2:m } FFFFFF7F }
+{FFFFFF80:^80 {(k^97:c)(s=9)1:m } FFFFFF80 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFF80(^94=)]
+  [FFFFFF7F(^94=)]
+  [FFFFFF7E(^94=)]}
+
+<(82=[Gmail]/Bin)(91=10082114)(85=-1)(AD=3)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^88^91)(^A6^82)(^B0=-1)(^B1=1)(^A0=3)
+    (^A5^90)]}
+
+<(A1=80)>
+{1:^C0 {(k^C1:c)(s=9)} 
+  [1(^83^89)(^82^87)(^81=)(^84=)(^B9^8A)(^86^8A)(^BB^8E)(^BC^8E)(^BD=)
+    (^BE=0|)(^89=1)]
+  [2(^83^97)(^82^95)(^85^96)(^81=)(^84=)(^B9^98)(^86^98)(^BB^9B)(^BC^9B)
+    (^BD=)(^BE^9C)(^9D^9D)(^CE=0)(^88=80)(^89=1)]}
+
+<(92=8)(93
+    =imap://jakob.nikolic07%40gmail.com@imap.gmail.com/[Gmail]/Drafts)
+  (8D=571)(9A=572)(A6=570)>
+{1:^C3 {(k^C4:c)(s=9)} 
+  [FFFFFF80(^C6^90)(^C8=1)(^C5=8)(^C9^93)(^CA^8D)]
+  [FFFFFF7F(^C6^9F)(^C8=81)(^C5=8)(^C9^93)(^CA^9A)]
+  [FFFFFF7E(^C6^AC)(^C8=81)(^C5=8)(^C9^93)(^CA^A6)]}
+
+@$${E{@
+{-1:^C0 {(k^C1:c)(s=9)} 1 2 
+  [-3(^83^A3)(^82^87)(^85^A2)(^81=)(^84=)(^B9^A4)(^86^A4)(^BB^A7)(^BC^A7)
+    (^BD=)(^BE^A8)(^9D^AA)(^CE^A9)(^88=80)(^89=1)]}
+@$$}E}@

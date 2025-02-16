@@ -1,0 +1,95 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=X-GM-MSGID)(B9=X-GM-THRID)(BA=X-GM-LABELS)
+  (BB=dobayes.mailnews@mozilla.org#junk)(80=ns:msg:db:row:scope:msgs:all)
+  (81=subject)(82=sender)(83=message-id)(84=references)(85=recipients)
+  (86=date)(87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)
+  (8C=ccList)(8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)(B0=MRUTime)
+  (B1=highestModSeq)(B2=highestRecordedUID)
+  (B3=ns:msg:db:row:scope:pending:all)(B4=ns:msg:db:table:kind:pending)
+  (B5=dateReceived)(B6=ProtoThreadFlags)(B7=folderName)>
+<(8F=27)(8C=62b4825d)(81=0)(80=1)>
+[1:m(^9B=27)(^8F=27)(^91^8C)(^90=0)(^92=1)]
+<(97=88)(95=637bdf5b)>[2:m(^9B=88)(^8F=88)(^91^95)(^90=0)(^92=1)]
+<(9E=89)(9C=63865919)>[3:m(^9B=89)(^8F=89)(^91^9C)(^90=0)(^92=1)]
+<(A9=94)(A6=638ee651)>[4:m(^9B=94)(^8F=94)(^91^A6)(^90=0)(^92=1)]
+<(B3=ad)(B1=67b1e52e)>[5:m(^9B=ad)(^8F=ad)(^91^B1)(^90=0)(^92=1)(^93=1)]
+<(BC=ae)(BA=63ff820a)>[6:m(^9B=ae)(^8F=ae)(^91^BA)(^90=0)(^92=1)]
+<(C4=b3)(C2=6486f1e6)>[7:m(^9B=b3)(^8F=b3)(^91^C2)(^90=0)(^92=1)]
+
+<(89==?utf-8?Q?Jakob_Nikoli=C4=87?= <jakobnikolic27@gmail.com>)(8A
+    =Anker Soundcore Liberty Air 2 bele - A3910G21 | enaA.com)(8B
+    =ABC3E068-1B76-4FDF-B663-583ECEDAAAFB@hxcore.ol)(88=)(8D=utf-8)
+  (8E=a3f8)(90=ffffffff)(91=1736438735597526955)(92
+    ="jakobnikolic27@gmail.com" <jakobnikolic27@gmail.com>)(93
+    ="mail@eyca.org" <mail@eyca.org>)(94
+    =PR3P193MB1151C75CE981F4747F1C33F2F80A9@PR3P193MB1151.EURP193.PROD.OUTLOOK\
+.COM)(96=4b1)(99=1750138870908759518)(9A
+    ="knjiznica@sckr.si" <knjiznica@sckr.si>)(9B
+    =PR3P193MB1151337255375E0DE7BEDDF3F8129@PR3P193MB1151.EURP193.PROD.OUTLOOK\
+.COM)(9D=4bf)(A0=1750858746356439388)(A8=11)(A1
+    ="ctmgorenjska@mobiln.si" <ctmgorenjska@mobiln.si>)(A3
+    ==?UTF-8?Q?Prete=C4=8Dena_izposoja?=)(A4
+    =PR3P193MB11519AD99F0232840AE13520F81B9@PR3P193MB1151.EURP193.PROD.OUTLOOK\
+.COM)(A5
+    =<01000184e632e0a9-895a5c6b-dd9b-4376-bcbb-3411087bd771-000000@email.amazo\
+nses.com>)(A7=10e4)(AB=1751446409402130782)(AC=1751446355909247755)
+  (A2=10)(AD=<jakob.nikolic07@gmail.com>)(AE=Mare je zelo mali.)(AF
+    =011e01d99bc9\$7ae637e0\$70b2a7a0\$@Domain)(B0
+    =<010201d99bc8\$c2d195a0\$4874c0e0\$@gmail.com>)(B2=cfac)(B5
+    =1768341384236861255)(B6=1768341064981699943)(B7
+    ==?iso-8859-2?Q?Jakob_Nikoli=E6?= <jakobnikolic27@gmail.com>)(B8
+    =0fb3d760-7f58-41eb-9097-ffd731a9c23c@Spark)(B9
+    =<be5f3cc5-c90a-4a60-a09b-e289103d7e38@Spark> <1fa3ece8-b007-45d1-8aee-547\
+17c52c46d@Spark>)(BB=57d)(BD=1759184792489881380)(BE
+    ="jerca.kebe@sg.sckr.si" <jerca.kebe@sg.sckr.si>)(BF
+    =Fwd: Opravljene PPIV)(C0
+    =PR3P193MB115180C262A3ABD1A204AE56F854A@PR3P193MB1151.EURP193.PROD.OUTLOOK\
+.COM)(C1
+    =<AM6PR02MB3605373CEB8A155583E9FD7DA76C9@AM6PR02MB3605.eurprd02.prod.outlo\
+ok.com>)(C3=6ae1)(C6=1768491948424350839)(C7=1764846473661404873)>
+{1:^80 {(k^96:c)(s=9)} 
+  [27(^88=1)(^82^89)(^81^8A)(^83^8B)(^84=)(^B5^8C)(^86^8C)(^89=1)(^95^8D)
+    (^87^8E)(^9A^90)(^8E=27)(^B6=0)(^B8^91)(^B9^91)(^BA=)]
+  [88(^88=1)(^82^92)(^85^93)(^81=)(^83^94)(^84=)(^B5^95)(^86^95)(^89=1)
+    (^87^96)(^9A^90)(^8E=88)(^B6=0)(^B8^99)(^B9^99)(^BA=)]
+  [89(^88=1)(^82^92)(^85^9A)(^81=)(^83^9B)(^84=)(^B5^9C)(^86^9C)(^89=1)
+    (^87^9D)(^9A^90)(^8E=89)(^B6=0)(^B8^A0)(^B9^A0)(^BA=)]
+  [94(^88=11)(^82^92)(^85^A1)(^81^A3)(^83^A4)(^84^A5)(^B5^A6)(^86^A6)
+    (^89=1)(^87^A7)(^9A^90)(^8E=94)(^B6=0)(^B8^AB)(^B9^AC)(^BA=)]
+  [AD(^88=10)(^85^AD)(^81^AE)(^83^AF)(^84^B0)(^B5=0)(^86^B1)(^89=1)
+    (^87^B2)(^9A^90)(^8E=ad)(^B6=0)(^B8^B5)(^B9^B6)(^BA=)]
+  [AE(^88=1)(^82^B7)(^81=)(^83^B8)(^84^B9)(^B5^BA)(^86^BA)(^89=1)(^87^BB)
+    (^9A^90)(^8E=ae)(^B6=0)(^B8^BD)(^B9^BD)(^BA=)]
+  [B3(^88=1)(^82^92)(^85^BE)(^81^BF)(^83^C0)(^84^C1)(^B5^C2)(^86^C2)
+    (^89=1)(^87^C3)(^9A^90)(^8E=b3)(^B6=0)(^B8^C6)(^B9^C7)(^BA=)]}
+{B3:^80 {(k^97:c)(s=9)7:m } B3 }
+{88:^80 {(k^97:c)(s=9)2:m } 88 }
+{89:^80 {(k^97:c)(s=9)3:m } 89 }
+{94:^80 {(k^97:c)(s=9)4:m } 94 }
+{27:^80 {(k^97:c)(s=9)1:m } 27 }
+{AD:^80 {(k^97:c)(s=9)5:m } AD }
+{AE:^80 {(k^97:c)(s=9)6:m } AE }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [27(^94^8A)]
+  [88(^94=)]
+  [89(^94=)]
+  [94(^94^A3)]
+  [AD(^94^AE)]
+  [AE(^94=)]
+  [B3(^94^BF)]}
+
+<(82=[Gmail]/Osnutki)(83=e000)(84=1739711790)(86=8082414)(87=6)(C5=7)>
+{1:^9E {(k^9F:c)(s=9u)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^A9=0)(^AF^83)(^B0^84)(^B1=)(^A6^82)
+    (^88^86)(^A7=6)(^B2=b3)(^A0=7)(^A5=b3)(^A1=1)]}

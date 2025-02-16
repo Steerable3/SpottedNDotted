@@ -1,0 +1,88 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=X-GM-MSGID)(B9=X-GM-THRID)(BA=X-GM-LABELS)
+  (BB=dobayes.mailnews@mozilla.org#junk)(BC=useServerRetention)
+  (BD=retainBy)(BE=daysToKeepHdrs)(BF=numHdrsToKeep)(C0=daysToKeepBodies)
+  (C1=useServerDefaults)(C2=cleanupBodies)(C3=applyToFlaggedMessages)
+  (C4=columnStates)(C5=sortType)(C6=sortOrder)(C7=viewFlags)(C8=viewType)
+  (C9=sortColumns)(CA=customSortCol)(CB=keywords)(CC=imageSize)
+  (CD=junkscore)(CE=sender_name)(CF=ns:msg:db:row:scope:ops:all)
+  (D0=ns:msg:db:table:kind:ops)(D1=storeToken)(D2=gloda-id)
+  (D3=gloda-dirty)(D4=remoteContentPolicy)(D5=notAPhishMessage)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)
+  (9E=ns:msg:db:row:scope:dbfolderinfo:all)
+  (9F=ns:msg:db:table:kind:dbfolderinfo)(A0=numMsgs)(A1=numNewMsgs)
+  (A2=folderSize)(A3=expungedBytes)(A4=folderDate)(A5=highWaterKey)
+  (A6=mailboxName)(A7=UIDValidity)(A8=totPendingMsgs)
+  (A9=unreadPendingMsgs)(AA=expiredMark)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)(B0=MRUTime)
+  (B1=highestModSeq)(B2=highestRecordedUID)
+  (B3=ns:msg:db:row:scope:pending:all)(B4=ns:msg:db:table:kind:pending)
+  (B5=dateReceived)(B6=ProtoThreadFlags)(B7=folderName)>
+<(8F=29)(8D=6086e166)(81=0)(80=1)>
+[1:m(^9B=29)(^8F=29)(^91^8D)(^90=0)(^92=1)(^93=0)]
+
+<(9E=81)(89
+    ="Zan from eFlamingo" <support@eflamingo-bf9570031abc.intercom-mail.com>)
+  (8A=<jakob.nikolic07@gmail.com>)(8B
+    ==?UTF-8?Q?Event_winners_=F0=9F=94=A5?=)(8C
+    =3ffc5b20-9b142f3c-1619452261-160036400250201@eflamingo-bf9570031abc.inter\
+com-mail-200.com)(88=)(8E=76ed)(90=ffffffff)(92=1698118780203703691)
+  (93=1698118780103483272)(94="[Gmail]/Smetnjak")(99
+    =0|Zan from eFlamingo <support@eflamingo-bf9570031abc.intercom-mail.com>)
+  (9C=7720)(9D=3c4)>
+{1:^80 {(k^96:c)(s=9)} 
+  [29(^88=81)(^82^89)(^85^8A)(^81^8B)(^83^8C)(^84=)(^B5^8D)(^86^8D)
+    (^89=1)(^87^8E)(^9A^90)(^8E=29)(^B6=0)(^B8^92)(^B9^93)(^BA^94)(^CE^99)
+    (^CB=)(^D1=0)(^9D^9C)(^8B^9D)(^D4=1)(^D3=1)]}
+{29:^80 {(k^97:c)(s=9)1:m } 29 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [29(^94^8B)]}
+
+<(82=[Gmail]/Starred)(83=e000)(95=1739711571)(85=802170)(86=8082014)
+  (87=4)(96=12)(97=2)(98=$122)>
+{1:^9E {(k^9F:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^A9=0)(^AF^83)(^B0^95)(^B1^85)(^A6^82)
+    (^88^86)(^A7=4)(^B2=29)(^A0=1)(^A1=0)(^A5=29)(^BC=1)(^C5=12)(^C6=2)
+    (^C7=1)(^C8=0)(^C9^98)]}
+
+@$${4{@
+@$$}4}@
+
+@$${5{@
+@$$}5}@
+
+@$${6{@
+@$$}6}@
+
+@$${7{@
+<(9F=330)>[-29:^80(^88=81)(^82^89)(^85^8A)(^81^8B)(^83^8C)(^84=)(^B5^8D)
+    (^86^8D)(^89=1)(^87^8E)(^9A^90)(^8E=29)(^B6=0)(^B8^92)(^B9^93)(^BA^94)
+    (^CE^99)(^CB=)(^D1=0)(^9D^9C)(^8B^9D)(^D4=1)(^D3=0)(^D2^9F)]
+@$$}7}@
+
+@$${8{@
+@$$}8}@
+
+@$${B{@
+< <(a=c)> // (f=iso-8859-1)
+  (D6=account)>
+[-1:m(^9B=29)(^8F=29)(^91=0)(^90=0)(^92=0)(^93=0)]
+{-1:^80 {(k^96:c)(s=9)} }
+{-29:^80 {(k^97:c)(s=9)1:m } }[-29:^80]
+{-FFFFFFFD:^99 {(k^98:c)(s=9)} }
+<(A0=804560)>[-1:^9E(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^A9=0)(^AF^83)(^B0^95)
+    (^B1^A0)(^A6^82)(^88^86)(^A7=4)(^B2=29)(^A0=0)(^A1=0)(^A5=29)(^BC=1)
+    (^C5=12)(^C6=2)(^C7=1)(^C8=0)(^C9^98)(^A3^9C)]
+{-1:^CF {(k^D0:c)(s=9)} }
+@$$}B}@
+
+@$${C{@
+@$$}C}@
