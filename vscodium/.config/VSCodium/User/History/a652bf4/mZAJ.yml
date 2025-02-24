@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+
+  tasks:
+    - import_tasks: tasks/essential.yml
+  
+  roles:
+    - role: system

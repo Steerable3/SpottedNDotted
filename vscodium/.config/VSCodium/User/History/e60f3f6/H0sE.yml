@@ -1,0 +1,13 @@
+- name: Update packages
+  apt:
+    update_cache: yes
+    upgrade: yes
+
+- name: Install Essential packages
+  package:
+    name:
+      - neovim
+      - docker
+      - neofetch
+      - htop
+    state: latest

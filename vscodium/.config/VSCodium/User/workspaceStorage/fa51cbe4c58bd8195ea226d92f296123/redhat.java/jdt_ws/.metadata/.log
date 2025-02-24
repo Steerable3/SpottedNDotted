@@ -1,0 +1,4209 @@
+!SESSION 2025-02-12 09:11:24.010 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-ade3894166e41656592607ade6ab1199.sock
+Command-line arguments:  -data /home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-ade3894166e41656592607ade6ab1199.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:27.862
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:28.114
+!MESSAGE Started org.eclipse.buildship.core 210ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:28.117
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:28.649
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.buildship.core 2 0 2025-02-12 09:11:28.777
+!MESSAGE Could not load Gradle version information
+!STACK 0
+org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketException: Network is unreachable
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)
+	... 4 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:28.860
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:28.872
+!MESSAGE Initializing Java Language Server 1.44.0.202501220510
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.565
+!MESSAGE ProjectRegistryRefreshJob finished 2446ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.743
+!MESSAGE Setting /usr/lib/jvm/java-23-jdk as 'JavaSE-23' environment (id:1739347890713)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.748
+!MESSAGE Setting java.home /usr/lib/jvm/java-23-jdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.756
+!MESSAGE Default VM Install changed from  1739347890687-/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64 to 1739347890713-/usr/lib/jvm/java-23-jdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.766
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.773
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.774
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.795
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.814
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.847
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:30.983
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:32.563
+!MESSAGE Try to create an invisible project for the workspace /home/jacko/Documents/Code/Java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:32.563
+!MESSAGE Creating the Java project Java_f7810ed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:32.586
+!MESSAGE Finished creating the Java project Java_f7810ed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:32.597
+!MESSAGE Successfully created a workspace invisible project Java_f7810ed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:32.686
+!MESSAGE Workspace initialized in 1892ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:32.709
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:33.287
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:33.682
+!MESSAGE >> Updating classpath for project Java_f7810ed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:33.958
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:33.961
+!MESSAGE 0 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:33.964
+!MESSAGE Validated 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:34.094
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:34.095
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:34.098
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:49.962
+!MESSAGE Reconciled 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:50.124
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:50.225
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:50.367
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:50.517
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:50.695
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:50.837
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:51.259
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:51.260
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:51.262
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:52.203
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:52.269
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:52.684
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:52.684
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:52.686
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:52.841
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:52.902
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:53.271
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:53.701
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:53.702
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:53.703
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:54.420
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:54.631
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:54.810
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:54.823
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:55.245
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:55.245
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:55.246
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:55.656
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:55.702
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:56.120
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:56.121
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:56.121
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:56.157
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:56.576
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:56.577
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:11:56.578
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:00.079
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:00.089
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:00.128
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:00.148
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-02-12 09:12:11.355 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-d57eee0509cea2ae2adaaa9e35f66433.sock
+Command-line arguments:  -data /home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-d57eee0509cea2ae2adaaa9e35f66433.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:15.367
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:15.631
+!MESSAGE Started org.eclipse.buildship.core 178ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:15.632
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.buildship.core 2 0 2025-02-12 09:12:16.141
+!MESSAGE Could not load Gradle version information
+!STACK 0
+org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketException: Network is unreachable
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)
+	... 4 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:16.253
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:16.402
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:16.408
+!MESSAGE Initializing Java Language Server 1.44.0.202501220510
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:17.548
+!MESSAGE ProjectRegistryRefreshJob finished 1915ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:17.689
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:17.689
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:17.737
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:17.742
+!MESSAGE RepositoryRegistryUpdateJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:19.117
+!MESSAGE Workspace initialized in 1378ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:19.126
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:19.937
+!MESSAGE >> Updating classpath for project Java_f7810ed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:19.958
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:19.959
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:19.972
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:20.101
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:20.134
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:20.710
+!MESSAGE Reconciled 2. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:21.427
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:21.431
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:21.453
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:21.454
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:21.456
+!MESSAGE Validated 2. Took 95 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:23.630
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:23.798
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:24.273
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:24.274
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:24.285
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:24.285
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:24.286
+!MESSAGE Validated 2. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:25.840
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:26.311
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:26.311
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:26.313
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:30.118
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:30.582
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:30.582
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:30.583
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:32.530
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:32.549
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:33.013
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:33.014
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:33.016
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:35.095
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:35.549
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:35.654
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:36.011
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:36.012
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:36.014
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:38.296
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:38.758
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:38.759
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:38.760
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:42.872
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:42.917
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:43.329
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:43.330
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:43.331
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:44.260
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:44.290
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:44.752
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:44.753
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:44.753
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:45.061
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:45.472
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:45.473
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:45.474
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:45.860
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:46.263
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:46.675
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:46.676
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:46.677
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:47.099
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:47.559
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:47.560
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:47.560
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:48.625
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:48.650
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:49.135
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:49.135
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:49.148
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:49.149
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:49.150
+!MESSAGE Validated 2. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:50.915
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:51.377
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:51.377
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:51.378
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:53.596
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:54.002
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:54.027
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:54.413
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:54.414
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:54.415
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:55.121
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:55.581
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:55.581
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:55.582
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:56.229
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:56.688
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:56.688
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:56.689
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:58.928
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:59.388
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:59.389
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:12:59.390
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:01.239
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:01.650
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:01.650
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:01.652
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:01.711
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:01.720
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:01.973
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:02.115
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:02.368
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:02.603
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:03.016
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:03.017
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:03.018
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:04.692
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:05.102
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:05.102
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:05.103
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:06.103
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:06.107
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:06.471
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:06.716
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:06.874
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:07.119
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:07.529
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:07.530
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:07.531
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:07.591
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:07.864
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:07.922
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:08.183
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:08.222
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:08.415
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:08.561
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:08.755
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:08.969
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:09.433
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:09.434
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:09.435
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:09.919
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:09.923
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:10.350
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:10.350
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:10.363
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:10.363
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:10.364
+!MESSAGE Validated 2. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:10.995
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:11.459
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:11.460
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:11.461
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:12.017
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:12.077
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:12.536
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:12.537
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:12.538
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:12.795
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:12.823
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.068
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.103
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.274
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.309
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.723
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.723
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.725
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.854
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:13.890
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:14.056
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:14.096
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:14.283
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:14.292
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:14.759
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:14.760
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:14.761
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:15.154
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:15.192
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:15.384
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:15.392
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:15.638
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:15.676
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:15.976
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:16.035
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:16.036
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:16.497
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:16.497
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:16.498
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:16.665
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:17.127
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:17.128
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:17.129
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:17.150
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:17.612
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:17.613
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:17.614
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:18.905
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:18.991
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:19.432
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:19.433
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:19.445
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:19.446
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:19.447
+!MESSAGE Validated 2. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:21.045
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:21.456
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:21.456
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:21.457
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:22.275
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:22.300
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:22.611
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:22.612
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:22.730
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:22.929
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:23.133
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:23.598
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:23.599
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:23.600
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:23.826
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:24.094
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:24.150
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:24.152
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:24.300
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:24.311
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:24.590
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:24.815
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:25.086
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:25.291
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:25.707
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:25.707
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:25.708
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:25.810
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:26.086
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:26.145
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:26.548
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:26.549
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:26.704
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:26.904
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.037
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.501
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.501
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.502
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.536
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.544
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.767
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.774
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:27.934
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:28.171
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:28.480
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:28.943
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:28.944
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:28.944
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:29.226
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:29.404
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:29.818
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:29.818
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:29.819
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:30.075
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:30.266
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:30.728
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:30.728
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:30.729
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:33.336
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:33.749
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:33.750
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:33.752
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:34.092
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:34.100
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:34.513
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:34.685
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:34.921
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:35.093
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:35.494
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:35.666
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:35.723
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:35.926
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:35.962
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:36.128
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:36.543
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:36.543
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:36.544
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:37.220
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:37.390
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:37.401
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:37.855
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:37.855
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:37.857
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:39.127
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:39.546
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:39.547
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:39.548
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:41.299
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:41.358
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:41.812
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:42.134
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:42.135
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:42.595
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:42.595
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:42.596
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:43.762
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:43.764
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:44.241
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:44.242
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:44.255
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:44.256
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:44.257
+!MESSAGE Validated 2. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:46.930
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:47.396
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:47.396
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:47.397
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:51.316
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:51.346
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:51.458
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:51.567
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:51.983
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:51.983
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:51.984
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:53.744
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:54.059
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:54.480
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:54.481
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:54.494
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:54.494
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:54.495
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:56.728
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:57.144
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:57.144
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:57.145
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:58.062
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:58.106
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:58.568
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:58.568
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:58.569
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:59.507
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:59.603
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:13:59.691
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:00.109
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:00.110
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:00.111
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:00.699
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:01.004
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:01.005
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:01.466
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:01.466
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:01.467
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:02.752
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:03.215
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:03.215
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:03.216
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:05.385
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:05.397
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:05.870
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:05.870
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:05.871
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:05.904
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:06.317
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:06.318
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:06.319
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:07.778
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:07.838
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:08.299
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:08.299
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:08.300
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:12.824
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:12.860
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.265
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.265
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.728
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.729
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.730
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.792
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.825
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.952
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:13.959
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:14.142
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:14.181
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:14.593
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:14.594
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:14.595
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:24.760
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:25.174
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:25.176
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:25.177
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:27.086
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:27.549
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:27.549
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:27.550
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:29.783
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:29.825
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:29.935
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:29.978
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.076
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.117
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.253
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.260
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.380
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.419
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.602
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:30.657
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:31.121
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:31.121
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:31.122
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:32.056
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:32.115
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:32.286
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:32.295
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:32.517
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:32.719
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:33.186
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:33.187
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:33.187
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:33.672
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:33.714
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.127
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.128
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.129
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.373
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.383
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.525
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.655
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:34.840
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:35.304
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:35.304
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:35.305
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:36.137
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:36.548
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:36.549
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:36.549
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:38.894
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:39.356
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:39.357
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:39.357
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:48.619
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:49.033
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:49.034
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:49.035
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:52.664
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:53.080
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:53.080
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:53.081
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:53.451
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:53.864
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:53.864
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:53.865
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:54.045
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:54.507
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:54.508
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:54.509
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:54.875
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:55.340
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:55.340
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:55.341
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:57.292
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:57.755
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:57.756
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:57.756
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:57.846
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:58.310
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:58.310
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:58.311
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:58.859
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:59.322
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:59.323
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:59.323
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:59.485
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:59.897
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:59.898
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:14:59.898
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:00.035
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:00.052
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:00.513
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:00.513
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:00.514
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:00.881
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:01.343
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:01.343
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:01.344
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:01.684
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:02.144
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:02.144
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:02.145
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:03.816
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:04.277
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:04.277
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:04.278
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:04.594
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:04.619
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:04.956
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:04.957
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:05.077
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:05.260
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:05.481
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:05.688
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:05.884
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:05.941
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:06.184
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:06.206
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:06.444
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:06.625
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:06.915
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:07.029
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:07.252
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:07.310
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:07.542
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:07.588
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:07.689
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:07.910
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:08.265
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:08.720
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:08.919
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:08.983
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:09.042
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:09.455
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:09.455
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:09.457
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:13.224
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:13.677
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:14.088
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:14.089
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:14.089
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:14.542
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:14.570
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:14.795
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:14.854
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:15.251
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:15.258
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:15.412
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:15.577
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:15.709
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:15.923
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:15.981
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:16.442
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:16.443
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:16.443
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.081
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.114
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.267
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.454
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.464
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.717
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.717
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:53.779
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.224
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.231
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.692
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.693
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.693
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.724
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.733
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.825
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:54.860
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:55.020
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:55.056
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:55.158
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:55.197
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:55.657
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:55.657
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:55.658
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:58.377
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:58.788
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:58.788
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:15:58.789
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.200
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.223
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.400
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.676
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.701
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.702
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.804
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:04.985
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:05.445
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:05.446
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:05.446
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:06.649
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:07.060
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:07.061
+!MESSAGE 5 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:07.061
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:11.694
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:12.155
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:12.155
+!MESSAGE 5 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:12.156
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:19.850
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:20.263
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:20.263
+!MESSAGE 6 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:20.264
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:20.646
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:20.647
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:20.954
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:20.955
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:21.050
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:21.454
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:21.916
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:21.916
+!MESSAGE 5 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:21.917
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:23.263
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:23.322
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:23.631
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:23.668
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:23.669
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:23.833
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:24.074
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:24.154
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:24.345
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:24.806
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:24.806
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:24.807
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:26.538
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:26.598
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:27.057
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:27.057
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:27.058
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:27.426
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:27.879
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:28.340
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:28.341
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:28.341
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:36.591
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:36.609
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:36.761
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:36.895
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:37.356
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:37.356
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:37.356
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:41.327
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:41.385
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:41.734
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:41.735
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:42.188
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:42.590
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:43.001
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:43.001
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:43.001
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:43.499
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:43.517
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:43.920
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:44.213
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:44.236
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:44.237
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:44.453
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:44.580
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:44.760
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:44.818
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:45.282
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:45.283
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:45.284
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:45.480
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:45.519
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:45.692
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:45.748
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:46.164
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:46.165
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:46.166
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:46.879
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:47.340
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:47.341
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:47.341
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:47.678
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:47.910
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:48.322
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:48.322
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:48.323
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:49.385
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:49.797
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:49.798
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:49.799
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:51.758
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:51.787
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:52.220
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:52.220
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:52.220
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:54.949
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:55.410
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:55.410
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:55.410
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:55.528
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:55.696
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:56.156
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:56.157
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:16:56.157
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:05.209
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:05.227
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:05.353
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:05.624
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:05.754
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:06.029
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:06.441
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:06.441
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:06.442
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:10.238
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:10.254
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:10.493
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:10.955
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:10.955
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:10.955
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:11.753
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:12.218
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:12.219
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:12.219
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:13.284
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:13.327
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:13.790
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:13.790
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:13.790
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:15.234
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:15.659
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:15.660
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:17:15.660
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:20.351
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:20.937
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:21.873
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:22.284
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:22.284
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:22.284
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:32.790
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:32.791
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:33.098
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:33.509
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:33.509
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:33.509
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:37.534
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:37.753
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:37.940
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:38.088
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:38.372
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:38.557
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:38.821
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:39.015
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:39.325
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:39.326
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:39.785
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:39.785
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:39.785
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:39.959
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:40.418
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:40.418
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:40.419
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:40.947
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:41.407
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:41.407
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:41.408
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:45.502
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:45.905
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:46.365
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:46.366
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:18:46.366
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:16.869
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:17.306
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:17.306
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:17.307
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:27.355
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:27.356
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:27.550
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:27.836
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:28.297
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:28.297
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:28.298
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:28.390
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:28.850
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:28.850
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:28.851
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:29.215
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:29.239
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:29.489
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:30.006
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:30.473
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:30.473
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:30.474
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:30.566
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:31.017
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:31.028
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:31.423
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:31.656
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:31.849
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:32.119
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:32.578
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:33.040
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:33.040
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:33.041
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:33.485
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:33.949
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:33.949
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:33.950
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:35.167
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:35.192
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:35.396
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:35.594
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:35.725
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:35.873
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:36.332
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:36.333
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:36.333
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:36.480
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:36.514
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:36.899
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:37.070
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:37.263
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:37.674
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:37.674
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:37.675
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:37.785
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:38.246
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:38.246
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:38.247
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:38.568
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:39.033
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:39.033
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:39.034
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:43.316
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:43.779
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:43.779
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:19:43.780
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:40.542
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:40.944
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:41.346
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:41.809
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:41.809
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:41.809
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:41.964
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:42.300
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:42.754
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:43.082
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:43.083
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:43.350
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:43.756
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:44.116
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:44.117
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:44.259
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:44.719
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:44.719
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:44.720
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:44.833
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:45.236
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:45.619
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:46.078
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:46.079
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:46.079
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:46.220
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:46.680
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:46.680
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:46.680
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:47.208
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:47.567
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:47.968
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:47.969
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:48.172
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:48.330
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:48.557
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:48.741
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:48.998
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:49.202
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:49.613
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:49.614
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:49.614
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:52.622
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:53.084
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:53.084
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:24:53.084
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:19.925
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:20.390
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:20.391
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:20.391
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:32.786
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:32.795
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:33.132
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:33.133
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:33.286
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:33.508
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:33.977
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:33.977
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:33.977
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:35.391
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:35.561
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:35.971
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:35.971
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:35.971
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:36.627
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:36.741
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:37.201
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:37.201
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:37.202
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:38.104
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:38.514
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:38.514
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:38.515
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:39.254
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:39.275
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:39.686
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:39.686
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:39.686
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:40.486
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:40.662
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:41.121
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:41.121
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:41.122
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:43.222
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:43.280
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:43.691
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:44.101
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:44.101
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:44.102
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:44.513
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:44.924
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:44.924
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:44.925
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:51.632
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:52.091
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:52.091
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:52.091
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:53.108
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:53.517
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:53.518
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:53.518
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:56.711
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:57.171
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:57.171
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:25:57.171
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:08.377
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:08.836
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:08.836
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:08.836
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:10.195
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:10.605
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:10.605
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:10.606
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:12.502
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:12.961
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:12.962
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:12.962
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:14.727
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:15.186
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:15.186
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:15.186
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:22.015
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:22.158
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:22.198
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:22.611
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:22.612
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:22.613
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:24.130
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:24.592
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:24.593
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:24.593
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:24.987
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:25.010
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:25.421
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:25.421
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:25.421
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:28.594
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:28.757
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:28.788
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:29.168
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:29.168
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:29.169
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:44.749
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:45.211
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:45.211
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:45.212
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:45.687
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:45.704
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:46.114
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:46.115
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:46.115
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:51.555
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:51.571
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:51.778
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:52.241
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:52.241
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:52.243
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:52.402
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:52.865
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:52.865
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:52.866
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:55.793
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:55.833
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:56.294
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:56.295
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:56.295
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:58.112
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:58.525
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:58.526
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:58.526
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:58.541
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:58.957
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:59.416
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:59.416
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:59.416
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:59.648
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:26:59.692
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:00.022
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:00.023
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:00.307
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:00.475
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:00.709
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:00.957
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:01.422
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:01.422
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:01.423
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:01.663
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:02.123
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:02.123
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:02.123
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:03.441
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:03.902
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:03.903
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:03.903
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:05.970
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:06.437
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:06.437
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:06.438
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:10.986
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:11.126
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:11.587
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:11.588
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:11.588
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:11.782
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:12.169
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:12.630
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:12.630
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:12.631
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:13.719
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:14.181
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:14.182
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:14.182
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:16.279
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:16.696
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:16.696
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:16.696
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:18.609
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:19.042
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:19.042
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:27:19.042
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:33.598
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:34.061
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:34.061
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:34.062
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:34.407
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:34.870
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:34.870
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:34.871
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:38.394
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:38.857
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:38.857
+!MESSAGE 5 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:38.858
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:43.324
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:43.333
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:43.556
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:43.575
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:43.729
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:43.759
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:43.872
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:44.277
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:44.420
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:44.582
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:44.995
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:44.995
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:44.995
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:46.195
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:46.658
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:46.658
+!MESSAGE 7 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:46.659
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:46.985
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:47.007
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:47.470
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:47.471
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:47.471
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:48.644
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:49.035
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:49.047
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:49.512
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:49.513
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:49.513
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:55.291
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:55.703
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:55.703
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:55.704
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:56.722
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:56.744
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:56.976
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:57.440
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:57.441
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:57.441
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:57.612
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:57.748
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:58.060
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:58.061
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:58.523
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:58.523
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:30:58.523
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:10.560
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:11.025
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:11.026
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:11.026
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:19.176
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:19.639
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:19.640
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:19.642
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:20.487
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:20.517
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:20.613
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:21.016
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:21.270
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:21.734
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:21.734
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:21.735
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:22.182
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:22.600
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:22.601
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:22.601
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:22.922
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:23.387
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:23.388
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:23.388
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:42.187
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:42.652
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:42.652
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:31:42.653
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:28.160
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:28.630
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:28.630
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:28.631
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:31.036
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:31.502
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:31.502
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:31.503
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:34.389
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:34.805
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:34.806
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:34.807
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:37.392
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:37.859
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:37.859
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:37.859
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:38.875
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:39.293
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:39.294
+!MESSAGE 4 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:39.294
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:40.995
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:41.411
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:41.411
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:41.412
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:42.108
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:42.524
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:42.525
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:42.525
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:45.433
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:45.897
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:45.899
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:45.900
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:50.771
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:51.236
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:51.236
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:51.237
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:51.668
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:51.681
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:51.896
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:52.052
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:52.253
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:52.394
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:52.858
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:52.858
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:52.858
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.056
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.470
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.470
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.471
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.531
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.944
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.945
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:55.945
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:56.222
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:56.236
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:56.409
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:56.570
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:56.738
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:56.893
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:57.307
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:57.307
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:32:57.308
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:04.083
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:04.484
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:04.728
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:05.192
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:05.192
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:05.192
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:07.436
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:07.849
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:07.849
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:07.850
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:09.955
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:10.419
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:10.419
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:10.420
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:26.751
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:26.770
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:26.952
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:27.111
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:27.269
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:27.399
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:27.861
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:27.862
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:27.862
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:28.632
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:29.044
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:29.044
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:29.044
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:29.560
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:29.585
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:30.051
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:30.051
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:30.052
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:31.332
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:31.801
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:31.801
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:31.802
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:32.365
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:32.369
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:32.783
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:32.784
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:32.784
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.124
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.543
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.543
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.543
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.578
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.991
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.991
+!MESSAGE 2 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:35.992
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:36.807
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:37.269
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:37.269
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:37.270
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:39.153
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:39.211
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:39.702
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:39.702
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:39.702
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:40.272
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:40.739
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:40.740
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:40.740
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:40.938
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:40.997
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:41.411
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:41.411
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:41.413
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:44.537
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:44.665
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:45.079
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:45.079
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:45.080
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:46.707
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:46.765
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:47.229
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:47.229
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:47.229
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:52.256
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:52.670
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:52.670
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:52.671
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:52.948
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:53.410
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:53.411
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:53.411
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:53.518
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:53.930
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:53.931
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:33:53.931
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:34:30.652
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:34:31.117
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:34:31.117
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 09:34:31.118
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:01.242
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:01.685
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:01.685
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:01.686
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:01.792
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:02.258
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:02.258
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:02.258
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:08.473
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:08.936
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:08.937
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:08.938
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:09.397
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:09.813
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:09.813
+!MESSAGE 3 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:09.814
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:11.975
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:12.428
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:12.429
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:12.430
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:12.504
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:12.965
+!MESSAGE begin problem for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:12.966
+!MESSAGE 1 problems reported for /TicTacToe.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-12 12:39:12.966
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-13 08:14:56.277
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-13 08:14:56.745
+!MESSAGE begin problem for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-13 08:14:56.745
+!MESSAGE 1 problems reported for /test.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-13 08:14:56.745
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-14 20:38:13.247
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-14 20:38:13.272
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-14 20:38:13.635
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-02-14 20:38:13.669
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

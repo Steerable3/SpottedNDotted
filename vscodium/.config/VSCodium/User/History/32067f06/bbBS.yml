@@ -1,0 +1,9 @@
+---
+username: jacko
+
+shell: usr/bin/bash
+
+packages:
+  - vim
+  - htop
+

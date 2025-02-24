@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uporabnik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 08:31:26 dop."/>
+        <attribute name="created" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0xMC0wNzswODoxMzozMCBkb3AuOzI5NzE="/>
+        <attribute name="edited" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0xMC0yMTswODozMToyNiBkb3AuOzQ7MzA4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Stage, Blank, Full, Count, Count2, Count3, Count4, count5, Count6, Repeat, RepeatM" type="Integer" array="False" size=""/>
+            <declare name="Print, Next" type="String" array="False" size=""/>
+            <input variable="Stage"/>
+            <input variable="Repeat"/>
+            <assign variable="Blank" expression="Stage-1"/>
+            <assign variable="Full" expression="1"/>
+            <assign variable="Count" expression="Stage"/>
+            <assign variable="Next" expression="&quot;&quot;"/>
+            <assign variable="RepeatM" expression="Repeat"/>
+            <for variable="Count" start="Stage" end="1" direction="dec" step="1">
+                <assign variable="Print" expression="&quot;&quot;"/>
+                <for variable="Count2" start="0" end="Blank" direction="inc" step="1">
+                    <assign variable="Print" expression="Print&amp;&quot; &quot;"/>
+                </for>
+                <for variable="Count3" start="1" end="Full" direction="inc" step="1">
+                    <assign variable="Print" expression="Print&amp;&quot;*&quot;"/>
+                </for>
+                <if expression="RepeatM&gt;0">
+                    <then>
+                        <for variable="Count6" start="0" end="Blank" direction="inc" step="1">
+                            <assign variable="Print" expression="Print&amp;&quot; &quot;"/>
+                        </for>
+                    </then>
+                    <else/>
+                </if>
+                <for variable="Count4" start="1" end="Repeat" direction="inc" step="1">
+                    <output expression="Print" newline="False"/>
+                </for>
+                <assign variable="RepeatM" expression="RepeatM-1"/>
+                <output expression="Next" newline="True"/>
+                <assign variable="Blank" expression="Blank-1"/>
+                <assign variable="Full" expression="Full+2"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

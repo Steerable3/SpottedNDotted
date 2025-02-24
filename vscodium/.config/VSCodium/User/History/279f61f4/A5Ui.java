@@ -1,0 +1,38 @@
+package Java;
+import java.io.IOException;
+import java.util.*;
+
+public class TabelAdd {
+    public static void main(String[] args) throws IOException{
+        Scanner in = new Scanner(System.in);
+        System.out.println("Koliko števil želite generirati? ");
+        int length = in.nextInt();
+        int[] generated = new int[length];
+        for(int i=0; i<length; i++) {
+            generated[i] = (int)(Math.random()*101);
+        }
+        System.out.println("Generirana števila so:");
+        for(int i : generated) {
+            System.out.println(i);
+        }
+        System.out.printf("Seštevek generiranih števil na rekurzivni način je %d.\n", addRecursive(generated, 0,  0));
+        System.out.printf("Seštevek generiranih števil na iterativni način je %d.\n", addIterative(generated));
+    }
+
+    public static int addRecursive(int[] numbers, int index, int result) {
+        if(index<numbers.length) {
+            result = result+numbers[index];
+            return addRecursive(numbers, index+1, result);
+        }
+        else
+            return result;
+    }
+
+    public static int addIterative(int[] numbers) {
+        int result=0;
+        for(int i : numbers) {
+            result = result+i;
+        }
+        return result;
+    }
+}

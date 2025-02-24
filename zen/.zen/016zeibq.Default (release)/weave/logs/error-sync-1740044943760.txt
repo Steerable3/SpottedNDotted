@@ -1,0 +1,269 @@
+1740037633752	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1740037633791	Sync.RemoteTabs	INFO	Generating tab list with filter
+1740037633793	Sync.RemoteTabs	DEBUG	Processing client: {"id":"eT2vXg-XD0EY","type":"client","name":"Jakob’s Zen on DESKTOP-D7N8IF9","clientType":"desktop","lastModified":1740011446900,"tabs":[]}
+1740037633794	Sync.RemoteTabs	DEBUG	Processing client: {"id":"tl9fMDkmDjfM","type":"client","name":"jacko’s Zen on nomad-architect","clientType":"desktop","lastModified":1739634782840,"tabs":[]}
+1740037633794	Sync.RemoteTabs	INFO	Final tab list has 2 clients with 5 tabs.
+1740037637341	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037637351	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037637676	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037638245	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037638269	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037638954	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037639195	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037639751	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037642356	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037642356	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037642362	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037642363	Sync.Engine.Tabs	INFO	Posting 1 records of 3287 bytes with batch=true
+1740037642364	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037642364	Sync.Collection	DEBUG	POST Length: 3287
+1740037642572	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740037642577	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740037644062	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037647022	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037649165	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037649165	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037649175	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037649176	Sync.Engine.Tabs	INFO	Posting 1 records of 3287 bytes with batch=true
+1740037649177	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037649177	Sync.Collection	DEBUG	POST Length: 3287
+1740037649380	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740037649384	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740037650745	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037655777	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037655777	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037655784	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037655785	Sync.Engine.Tabs	INFO	Posting 1 records of 3287 bytes with batch=true
+1740037655785	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037655785	Sync.Collection	DEBUG	POST Length: 3287
+1740037655997	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740037656002	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740037658293	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037663321	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037663321	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037663327	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037663328	Sync.Engine.Tabs	INFO	Posting 1 records of 3371 bytes with batch=true
+1740037663328	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037663329	Sync.Collection	DEBUG	POST Length: 3371
+1740037663534	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740037663538	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740037693330	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037697740	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037698347	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037698348	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037698356	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037698357	Sync.Engine.Tabs	INFO	Posting 1 records of 3371 bytes with batch=true
+1740037698358	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037698359	Sync.Collection	DEBUG	POST Length: 3371
+1740037698573	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740037698576	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740037699391	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037704419	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037704419	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037704426	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037704427	Sync.Engine.Tabs	INFO	Posting 1 records of 3371 bytes with batch=true
+1740037704428	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037704428	Sync.Collection	DEBUG	POST Length: 3371
+1740037704647	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740037704651	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740037719446	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037724253	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740037724458	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037724458	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037724466	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037724467	Sync.Engine.Tabs	INFO	Posting 1 records of 3371 bytes with batch=true
+1740037724468	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037724468	Sync.Collection	DEBUG	POST Length: 3371
+1740037724674	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740037724677	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740037728183	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740037730888	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1740037730888	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Linux x86_64) FxSync/1.137.0.20250207111303.desktop
+1740037730888	Sync.Service	INFO	Starting sync at 2025-02-20 08:48:50 in browser session BTpjn-O5iv_f
+1740037730892	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740037730893	Sync.Status	INFO	Resetting Status.
+1740037730893	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1740037730894	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037731120	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/info/collections
+1740037731121	Sync.Service	DEBUG	Fetching global metadata record
+1740037731121	Sync.Service	DEBUG	Weave Version: 1.137.0 Local Storage: 5 Remote Storage: 5
+1740037731121	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1740037731121	Sync.Service	INFO	Testing info/collections: {"history":1740037633.57,"bookmarks":1739710156.49,"meta":1738440641.63,"addons":1739730149.71,"workspaces":1739710449.67,"prefs":1740036430.86,"clients":1740036430.6,"crypto":1737038328.78,"tabs":1740037724.52}
+1740037731121	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1737038328.78
+1740037731121	Sync.Synchronizer	INFO	Updating enabled engines: 3 clients.
+1740037731123	Sync.Synchronizer	INFO	Syncing specified engines: ["tabs"]
+1740037731129	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740037731129	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740037731159	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1740037731161	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740037731162	Sync.Engine.Tabs	INFO	Posting 1 records of 3371 bytes with batch=true
+1740037731163	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740037731163	Sync.Collection	DEBUG	POST Length: 3371
+1740044645632	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1740044645632	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740044645634	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1740044645646	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740044645649	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1740044645653	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1740044645654	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1740044645657	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740044645772	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740044647700	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Linux x86_64) FxSync/1.137.0.20250207111303.desktop
+1740044647700	FirefoxAccounts	INFO	Polling device commands.
+1740044647700	Sync.Service	INFO	Starting sync at 2025-02-20 10:44:07 in browser session BTpjn-O5iv_f
+1740044647701	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:127:11
+WrappedLock@util.sys.mjs:141:15
+_lockedSync@service.sys.mjs:1372:6
+sync/<@service.sys.mjs:1337:18
+WrappedCatch@util.sys.mjs:112:27
+sync@service.sys.mjs:1338:7
+1740044647701	Sync.Service	INFO	Cannot start sync: already syncing?
+1740044647703	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/device/commands?index=0
+1740044647705	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/device/commands?index=0 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1740044647705	Hawk	WARN	hawk request error: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.sys.mjs:478
+1740044647705	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+request()@resource://services-common/hawkclient.sys.mjs:230
+1740044647705	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+request()@resource://services-common/hawkclient.sys.mjs:238
+1740044647705	Hawk	DEBUG	(Response) /account/device/commands?index=0: code: null - Status text: null
+1740044647705	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:307
+request()@resource://services-common/hawkclient.sys.mjs:246
+1740044647706	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:307
+request()@resource://services-common/hawkclient.sys.mjs:247
+1740044647706	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+_constructError()@resource://services-common/hawkclient.sys.mjs:113
+request()@resource://services-common/hawkclient.sys.mjs:252
+1740044647706	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:114
+request()@resource://services-common/hawkclient.sys.mjs:252
+1740044647706	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:115
+request()@resource://services-common/hawkclient.sys.mjs:252
+1740044647706	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_constructError()@resource://services-common/hawkclient.sys.mjs:121
+request()@resource://services-common/hawkclient.sys.mjs:252
+1740044647706	FirefoxAccounts	ERROR	error GETing /account/device/commands?index=0: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1740044647706	Sync.SyncScheduler	ERROR	Fetching missed remote commands failed.: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1740044651007	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740044652276	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740044652611	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740044652943	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044652947	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044653244	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044653248	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044653585	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044653589	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044653888	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044653892	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044654228	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044654232	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044654270	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1740044654270	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1740044654274	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1740044654282	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740044654293	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Linux x86_64) FxSync/1.137.0.20250207111303.desktop
+1740044654293	Sync.Service	INFO	Starting sync at 2025-02-20 10:44:14 in browser session BTpjn-O5iv_f
+1740044654294	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:127:11
+WrappedLock@util.sys.mjs:141:15
+_lockedSync@service.sys.mjs:1372:6
+sync/<@service.sys.mjs:1337:18
+WrappedCatch@util.sys.mjs:112:27
+sync@service.sys.mjs:1338:7
+1740044654294	Sync.Service	INFO	Cannot start sync: already syncing?
+1740044654507	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044654511	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044654925	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044654928	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044655317	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044655319	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044655328	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044655374	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740044655406	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044655857	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044655869	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044655915	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044657203	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740044657612	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740044660456	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1740044660456	FirefoxAccounts	DEBUG	getOAuthToken enter
+1740044660456	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1740044660456	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1740044660457	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1740044660920	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 401
+1740044660920	FirefoxAccounts	INFO	Fetching the profile returned a 401 - revoking our token and retrying
+1740044660921	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/destroy
+1740044660921	Services.Common.RESTRequest	DEBUG	POST Length: 900
+1740044660922	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1740044660922	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache","encryptedSendTabKeys","encryptedCloseTabKeys"]
+1740044660922	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache","encryptedSendTabKeys","encryptedCloseTabKeys"]
+1740044660922	FirefoxAccounts	DEBUG	getOAuthToken enter
+1740044660923	FirefoxAccounts	TRACE	finished write of json user data - took: 1
+1740044660924	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1740044660924	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1740044660927	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1740044660928	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1740044660928	Services.Common.RESTRequest	DEBUG	POST Length: 81
+1740044661186	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/destroy 200
+1740044661186	Hawk	DEBUG	(Response) /oauth/destroy: code: 200 - Status text: 
+1740044661186	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -186
+1740044661236	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token 200
+1740044661236	Hawk	DEBUG	(Response) /oauth/token: code: 200 - Status text: 
+1740044661236	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -236
+1740044661237	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1740044661237	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache","encryptedSendTabKeys","encryptedCloseTabKeys"]
+1740044661237	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache","encryptedSendTabKeys","encryptedCloseTabKeys"]
+1740044661237	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1740044661239	FirefoxAccounts	TRACE	finished write of json user data - took: 2
+1740044661239	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1740044661239	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1740044661242	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1740044661449	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1740044662012	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044662805	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740044664345	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044664407	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044664629	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044667893	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740044667970	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740044667993	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044668737	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044670791	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044670795	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044670912	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044672903	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044672906	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044672917	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044672992	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044673025	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740044673183	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044673279	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740044673290	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044673342	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044673420	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044674973	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044674998	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044676906	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044676925	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044677772	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740044677792	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044678282	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740044765030	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740044943753	Sync.Collection	ERROR	Request timed out after 300000ms. Aborting.
+1740044943753	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true failed: AbortError: The operation was aborted.  Stack trace: _doRequest/timeoutId<()@resource://services-sync/resource.sys.mjs:179
+notify()@resource://gre/modules/Timer.sys.mjs:49
+1740044943754	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1740044943754	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1740044943754	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1740044943754	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1740044943754	Sync.ErrorHandler	DEBUG	tabs failed: [Exception... "Request aborted (timeout)"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-sync/resource.sys.mjs :: _doRequest :: line 189"  data: no] Stack trace: _doRequest()@resource://services-sync/resource.sys.mjs:189
+1740044943756	Sync.Synchronizer	INFO	Sync completed at 2025-02-20 10:49:03 after 7212.86 secs.
+1740044943756	Sync.Declined	DEBUG	Handling remote declined: ["creditcards","passwords"]
+1740044943756	Sync.Declined	DEBUG	Handling local declined: ["creditcards","passwords"]
+1740044943756	Sync.Declined	DEBUG	Declined changed? false
+1740044943756	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1740044943758	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1740044943759	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

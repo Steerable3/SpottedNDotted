@@ -1,0 +1,43 @@
+2025-02-19 09:08:39.449 [info] Getting Manifest... redhat.java
+2025-02-19 09:08:40.075 [info] Installing extension: redhat.java {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"}}
+2025-02-19 09:08:50.564 [info] Getting Manifest... vscjava.vscode-java-pack
+2025-02-19 09:08:50.885 [info] Installing extension: vscjava.vscode-java-pack {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"}}
+2025-02-19 09:08:55.160 [info] Getting Manifest... vscjava.vscode-java-debug
+2025-02-19 09:08:55.382 [info] Getting Manifest... vscjava.vscode-gradle
+2025-02-19 09:08:55.554 [info] Getting Manifest... vscjava.vscode-java-dependency
+2025-02-19 09:08:55.729 [info] Getting Manifest... redhat.java
+2025-02-19 09:08:55.902 [info] Getting Manifest... vscjava.vscode-java-test
+2025-02-19 09:08:56.073 [info] Getting Manifest... vscjava.vscode-maven
+2025-02-19 09:08:56.284 [info] Installing extension: vscjava.vscode-java-debug {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-19 09:08:56.284 [info] Installing extension: vscjava.vscode-gradle {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-19 09:08:56.285 [info] Installing extension: vscjava.vscode-java-dependency {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-19 09:08:56.285 [info] Waiting for already requested installing extension redhat.java vscjava.vscode-java-pack vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:08:56.285 [info] Installing extension: vscjava.vscode-java-test {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-19 09:08:56.286 [info] Installing extension: vscjava.vscode-maven {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-19 09:08:56.914 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.24.1-universal: vscjava.vscode-java-dependency
+2025-02-19 09:08:56.929 [info] Renamed to /home/jacko/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.24.1-universal
+2025-02-19 09:08:57.023 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/vscjava.vscode-java-test-0.43.0-universal: vscjava.vscode-java-test
+2025-02-19 09:08:57.035 [info] Renamed to /home/jacko/.vscode-oss/extensions/vscjava.vscode-java-test-0.43.0-universal
+2025-02-19 09:08:57.679 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/vscjava.vscode-java-debug-0.58.1-universal: vscjava.vscode-java-debug
+2025-02-19 09:08:57.691 [info] Renamed to /home/jacko/.vscode-oss/extensions/vscjava.vscode-java-debug-0.58.1-universal
+2025-02-19 09:08:58.377 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/vscjava.vscode-maven-0.44.0-universal: vscjava.vscode-maven
+2025-02-19 09:08:58.390 [info] Renamed to /home/jacko/.vscode-oss/extensions/vscjava.vscode-maven-0.44.0-universal
+2025-02-19 09:08:58.428 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/vscjava.vscode-java-pack-0.29.0-universal: vscjava.vscode-java-pack
+2025-02-19 09:08:58.437 [info] Renamed to /home/jacko/.vscode-oss/extensions/vscjava.vscode-java-pack-0.29.0-universal
+2025-02-19 09:09:00.571 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64: redhat.java
+2025-02-19 09:09:00.660 [info] Renamed to /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64
+2025-02-19 09:09:00.694 [info] Extension installed successfully: redhat.java vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:00.694 [info] Finished waiting for already requested installing extension redhat.java vscjava.vscode-java-pack vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:04.342 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/vscjava.vscode-gradle-3.15.0-universal: vscjava.vscode-gradle
+2025-02-19 09:09:04.366 [info] Renamed to /home/jacko/.vscode-oss/extensions/vscjava.vscode-gradle-3.15.0-universal
+2025-02-19 09:09:04.398 [info] Extension installed successfully: vscjava.vscode-java-dependency vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:04.399 [info] Extension installed successfully: vscjava.vscode-java-test vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:04.399 [info] Extension installed successfully: vscjava.vscode-java-debug vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:04.399 [info] Extension installed successfully: vscjava.vscode-maven vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:04.399 [info] Extension installed successfully: vscjava.vscode-java-pack vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:04.400 [info] Extension installed successfully: vscjava.vscode-gradle vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json
+2025-02-19 09:09:55.223 [info] Getting Manifest... esbenp.prettier-vscode
+2025-02-19 09:09:55.397 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"}}
+2025-02-19 09:09:56.080 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal: esbenp.prettier-vscode
+2025-02-19 09:09:56.087 [info] Renamed to /home/jacko/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal
+2025-02-19 09:09:56.122 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json

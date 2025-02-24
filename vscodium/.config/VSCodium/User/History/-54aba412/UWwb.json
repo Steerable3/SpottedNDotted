@@ -1,0 +1,8 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Cobalt2",
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "fira code",
+    "editor.fontSize": 16,
+    "editor.cursorBlinking": "expand"
+}

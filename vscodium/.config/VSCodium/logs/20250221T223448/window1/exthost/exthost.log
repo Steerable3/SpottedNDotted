@@ -1,0 +1,15 @@
+2025-02-21 22:34:49.327 [info] Extension host with pid 104282 started
+2025-02-21 22:34:49.327 [info] Skipping acquiring lock for /home/jacko/.config/VSCodium/User/workspaceStorage/b5bac9f4a930f2eba86c651fb135983c.
+2025-02-21 22:34:49.466 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-21 22:34:49.498 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-21 22:34:49.575 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-21 22:34:49.633 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-21 22:34:49.685 [info] Eager extensions activated
+2025-02-21 22:34:49.701 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:34:49.702 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:34:49.716 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:35:12.485 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-21 22:35:12.496 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-21 22:35:12.551 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-22 10:46:38.670 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-22 10:46:38.690 [info] Extension host with pid 104282 exiting with code 0

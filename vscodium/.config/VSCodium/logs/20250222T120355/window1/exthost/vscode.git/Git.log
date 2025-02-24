@@ -1,0 +1,32 @@
+2025-02-22 12:03:58.904 [info] [main] Log level: Info
+2025-02-22 12:03:58.904 [info] [main] Validating found git in: "git"
+2025-02-22 12:03:58.904 [info] [main] Using git "2.48.1" from "git"
+2025-02-22 12:03:58.904 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-22 12:03:58.904 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-22 12:03:58.904 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-22 12:03:58.904 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-22 12:03:58.904 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-22 12:03:58.904 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-22 12:03:58.904 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-22 12:03:58.904 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-22 12:03:59.557 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-22 12:03:59.557 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-22 12:04:15.919 [info] [main] Log level: Info
+2025-02-22 12:04:15.919 [info] [main] Validating found git in: "git"
+2025-02-22 12:04:15.919 [info] [main] Using git "2.48.1" from "git"
+2025-02-22 12:04:15.919 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-22 12:04:15.919 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-22 12:04:15.920 [info] > git rev-parse --path-format=relative --show-toplevel [4ms]
+2025-02-22 12:04:15.935 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-22 12:04:15.947 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2025-02-22 12:04:15.959 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-22 12:04:16.110 [info] > git rev-parse --path-format=relative --show-toplevel [142ms]
+2025-02-22 12:04:16.162 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (2), unsafe repositories (0)
+2025-02-22 12:04:16.860 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-22 12:04:16.875 [info] > git rev-parse --path-format=relative --show-toplevel [3ms]
+2025-02-22 12:04:50.573 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-22 12:04:50.586 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]

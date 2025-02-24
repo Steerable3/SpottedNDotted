@@ -1,0 +1,170 @@
+2025-02-19 09:03:26.337 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-19 09:03:26.338 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-19 09:03:26.338 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-19 09:03:26.339 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-19 09:03:27.063 [info] Started local extension host with pid 23053.
+2025-02-19 09:03:29.435 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:03:29.923 [info] [perf] Render performance baseline is 36ms
+2025-02-19 09:06:10.261 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:37.053 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:40.793 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:40.794 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:40.800 [error] Offline: Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async s$e.doGetExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:51242)
+    at async s$e.getExtensionsUsingResourceApi (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:52443)
+    at async s$e.getExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:50303)
+    at async Tit.checkForUpdates (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:32122)
+2025-02-19 09:07:41.529 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:41.535 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:41.939 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:41.940 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:41.946 [error] Offline: Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async s$e.doGetExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:51242)
+    at async s$e.getExtensionsUsingResourceApi (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:52443)
+    at async s$e.getExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:50303)
+    at async Tit.checkForUpdates (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:32122)
+2025-02-19 09:07:42.339 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:42.341 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:42.787 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:42.788 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:43.163 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:43.172 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:43.177 [error] Offline: Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async s$e.doGetExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:51242)
+    at async s$e.getExtensionsUsingResourceApi (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:52443)
+    at async s$e.getExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:50303)
+    at async Tit.checkForUpdates (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:32122)
+2025-02-19 09:07:43.542 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:43.544 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:43.917 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:43.922 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:44.274 [error] Error while getting the latest version for the extension yukina.yukinord. Offline
+2025-02-19 09:07:44.281 [error] Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async r (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:54963)
+    at async s$e.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:55296)
+    at async Tit.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:20154)
+    at async Promise.all (index 0)
+    at async sAs.queryGallery (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:26270)
+    at async sAs.query (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:16623)
+    at async vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2261:14666
+2025-02-19 09:07:44.283 [error] Offline: Offline: Offline
+    at s$e.queryRawGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:59708)
+    at async s$e.queryGalleryExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:56066)
+    at async s$e.doGetExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:51242)
+    at async s$e.getExtensionsUsingResourceApi (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:52443)
+    at async s$e.getExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1306:50303)
+    at async Tit.checkForUpdates (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2469:32122)
+2025-02-19 09:10:12.918 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-19 09:13:11.353 [warning] Semantic token with invalid length detected at lineNumber 5, column 12
+2025-02-19 09:33:50.782 [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Zd.validate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:35889)
+	at new Zd (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:36097)
+	at G (/home/jacko/SpottedNDotted/vscodium/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1241091)
+	at c (/home/jacko/SpottedNDotted/vscodium/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1279607)
+	at t.map (/home/jacko/SpottedNDotted/vscodium/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1279693)
+	at Object.asDocumentSymbols (/home/jacko/SpottedNDotted/vscodium/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:1249147)
+	at /home/jacko/SpottedNDotted/vscodium/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:943219
+	at Generator.next (<anonymous>)
+	at s (/home/jacko/SpottedNDotted/vscodium/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/dist/extension.js:2:942275)
+2025-02-19 09:34:24.239 [error] Cannot get completion responses.: Error: Cannot get completion responses.
+	at m0._executeContributedCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:39283)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)

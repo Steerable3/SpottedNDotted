@@ -1,0 +1,7 @@
+Config(
+  prefix: "yt",
+  engines: [Custom(
+  name: "YouTube",
+  url: "youtube.com/results?search_query={}",
+)],
+)

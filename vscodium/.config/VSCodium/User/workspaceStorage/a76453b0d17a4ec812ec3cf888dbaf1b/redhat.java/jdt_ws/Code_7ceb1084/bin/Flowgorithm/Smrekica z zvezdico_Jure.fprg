@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Smrekica z zvezdico"/>
+        <attribute name="authors" value="jurek"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 09:04:20 dop."/>
+        <attribute name="created" value="anVyZWs7SlVSRUxBUFRPUDsyMDI0LTA5LTMwOzA5OjE0OjA3IGRvcC47MjgxNg=="/>
+        <attribute name="edited" value="anVyZWs7SlVSRUxBUFRPUDsyMDI0LTEwLTA3OzA5OjA0OjIwIGRvcC47MzsyOTE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i1, i2" type="String" array="False" size=""/>
+            <declare name="n, k, l, m, o, t, p" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="1"/>
+            <declare name="i3" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="i1" expression="&quot; &quot;"/>
+            <assign variable="i2" expression="&quot;*&quot;"/>
+            <assign variable="t" expression="1"/>
+            <assign variable="p" expression="n"/>
+            <for variable="k" start="1" end="p" direction="inc" step="1">
+                <for variable="l" start="1" end="n - 1" direction="inc" step="1">
+                    <output expression="i1" newline="False"/>
+                </for>
+                <for variable="o" start="1" end="t" direction="inc" step="1">
+                    <output expression="i2" newline="False"/>
+                </for>
+                <for variable="m" start="1" end="n - 1" direction="inc" step="1">
+                    <output expression="i1" newline="False"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+                <assign variable="n" expression="n - 1"/>
+                <assign variable="t" expression="t + 2"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,10 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Cobalt2",
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'fira code'",
+    "editor.fontSize": 18,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 3,
+    "redhat.telemetry.enabled": true
+}

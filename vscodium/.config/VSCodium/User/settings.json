@@ -1,0 +1,15 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Yukinord",
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'Fira Code Nerd Font'",
+    "editor.fontSize": 18,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 3,
+    "redhat.telemetry.enabled": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "window.customTitleBarVisibility": "auto",
+    "window.titleBarStyle": "custom",
+    "explorer.confirmDelete": false
+}

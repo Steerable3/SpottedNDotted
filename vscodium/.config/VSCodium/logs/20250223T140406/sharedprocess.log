@@ -1,0 +1,5 @@
+2025-02-23 14:04:27.275 [info] Getting Manifest... asvetliakov.vscode-neovim
+2025-02-23 14:04:27.958 [info] Installing extension: asvetliakov.vscode-neovim {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json","path":"/home/jacko/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"}}
+2025-02-23 14:04:28.664 [info] Extracted extension to file:///home/jacko/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.17-universal: asvetliakov.vscode-neovim
+2025-02-23 14:04:28.676 [info] Renamed to /home/jacko/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.17-universal
+2025-02-23 14:04:28.718 [info] Extension installed successfully: asvetliakov.vscode-neovim vscode-userdata:/home/jacko/.vscode-oss/extensions/extensions.json

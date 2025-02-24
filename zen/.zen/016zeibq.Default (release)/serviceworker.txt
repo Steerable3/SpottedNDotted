@@ -1,0 +1,13 @@
+9
+^userContextId=1
+https://www.youtube.com/
+https://www.youtube.com/sw.js
+true
+{b07d6d73-a5d4-4a06-8c7e-915553011837}
+0
+1740401389709735
+1740401390235383
+1740401389237168
+1
+true
+#

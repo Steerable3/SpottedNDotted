@@ -1,0 +1,281 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-02-12 09:11:23.287'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_ss_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-02-12 09:11:23.345'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-02-12 09:11:23.483'
+}
+{
+  message: 'Feb 12, 2025 9:11:25 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:11:25.138'
+}
+{
+  message: 'Feb 12, 2025 9:11:25 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:11:25.145'
+}
+{
+  message: '[Error - 9:11:26 AM] Feb 12, 2025, 9:11:26 AM An internal error occurred during: "Initialize After Load".\n' +
+    'Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.startBundle(BundleUtils.java:360)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin$1.run(JavaLanguageServerPlugin.java:196)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:11:26.946'
+}
+{
+  message: '[Warn  - 9:11:28 AM] Feb 12, 2025, 9:11:28 AM Could not load Gradle version information\n' +
+    'Cannot download published Gradle versions.\n' +
+    'org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.net.SocketException: Network is unreachable\n' +
+    '\tat java.base/sun.nio.ch.Net.connect0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.Net.connect(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.Net.connect(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(Unknown Source)\n' +
+    '\tat java.base/java.net.Socket.connect(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)\n' +
+    '\t... 4 more\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:11:28.791'
+}
+{
+  message: '[Error - 9:11:31 AM] Feb 12, 2025, 9:11:31 AM [Working copy] TicTacToe.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '[Working copy] TicTacToe.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): [Working copy] TicTacToe.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:338)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:11:31.050'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-02-12 09:12:10.208'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_ss_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-02-12 09:12:10.243'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/fa51cbe4c58bd8195ea226d92f296123/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-02-12 09:12:10.657'
+}
+{
+  message: 'Feb 12, 2025 9:12:12 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:12:12.494'
+}
+{
+  message: 'Feb 12, 2025 9:12:12 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:12:12.501'
+}
+{
+  message: '[Error - 9:12:13 AM] Feb 12, 2025, 9:12:13 AM An internal error occurred during: "Initialize After Load".\n' +
+    'Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.startBundle(BundleUtils.java:360)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin$1.run(JavaLanguageServerPlugin.java:196)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:12:13.946'
+}
+{
+  message: '[Warn  - 9:12:16 AM] Feb 12, 2025, 9:12:16 AM Could not load Gradle version information\n' +
+    'Cannot download published Gradle versions.\n' +
+    'org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.net.SocketException: Network is unreachable\n' +
+    '\tat java.base/sun.nio.ch.Net.connect0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.Net.connect(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.Net.connect(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(Unknown Source)\n' +
+    '\tat java.base/java.net.Socket.connect(Unknown Source)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)\n' +
+    '\t... 4 more\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:12:16.252'
+}
+{
+  message: 'Feb 12, 2025 9:12:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:12:20.123'
+}
+{
+  message: 'Feb 12, 2025 9:13:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 515\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:13:34.905'
+}
+{
+  message: 'Feb 12, 2025 9:13:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 516\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:13:35.026'
+}
+{
+  message: 'Feb 12, 2025 9:13:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 518\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:13:35.030'
+}
+{
+  message: 'Feb 12, 2025 9:13:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 519\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:13:35.431'
+}
+{
+  message: 'Feb 12, 2025 9:13:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 520\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:13:35.433'
+}
+{
+  message: 'Feb 12, 2025 9:13:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 523\n' +
+    'Feb 12, 2025 9:13:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 521\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:13:35.618'
+}
+{
+  message: 'Feb 12, 2025 9:18:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1415\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:18:20.939'
+}
+{
+  message: 'Feb 12, 2025 9:18:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1434\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:18:32.730'
+}
+{
+  message: 'Feb 12, 2025 9:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1535\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:19:29.996'
+}
+{
+  message: 'Feb 12, 2025 9:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1538\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:19:30.504'
+}
+{
+  message: 'Feb 12, 2025 9:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1537\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:19:30.504'
+}
+{
+  message: 'Feb 12, 2025 9:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1539\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:19:30.507'
+}
+{
+  message: 'Feb 12, 2025 9:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1540\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:19:30.957'
+}
+{
+  message: 'Feb 12, 2025 9:24:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1770\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:24:49.141'
+}
+{
+  message: 'Feb 12, 2025 9:26:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2082\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:26:58.530'
+}
+{
+  message: 'Feb 12, 2025 9:26:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2084\n' +
+    'Feb 12, 2025 9:26:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2083\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:26:58.944'
+}
+{
+  message: 'Feb 12, 2025 9:26:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2085\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:26:58.946'
+}
+{
+  message: 'Feb 12, 2025 9:26:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2086\n',
+  level: 'info',
+  timestamp: '2025-02-12 09:26:59.366'
+}

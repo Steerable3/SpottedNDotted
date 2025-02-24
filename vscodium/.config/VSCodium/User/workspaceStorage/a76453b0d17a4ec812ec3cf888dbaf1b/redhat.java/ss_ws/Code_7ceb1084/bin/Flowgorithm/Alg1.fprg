@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uporabnik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-25 11:23:09 dop."/>
+        <attribute name="created" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0yNTsxMDo0Nzo1NyBkb3AuOzI5ODg="/>
+        <attribute name="edited" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0yNTsxMToyMzowOSBkb3AuOzE7MzA4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VarA, VarB, Temp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vnesi VarA&quot;" newline="True"/>
+            <input variable="VarA"/>
+            <output expression="&quot;Vnesi VarB&quot;" newline="True"/>
+            <input variable="VarB"/>
+            <assign variable="Temp" expression="VarA"/>
+            <assign variable="VarA" expression="VarB"/>
+            <assign variable="VarB" expression="Temp"/>
+            <output expression="VarA" newline="True"/>
+            <output expression="VarB" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

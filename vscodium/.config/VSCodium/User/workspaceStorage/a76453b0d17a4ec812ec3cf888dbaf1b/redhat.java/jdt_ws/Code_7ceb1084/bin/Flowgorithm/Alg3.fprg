@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uporabnik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-25 11:57:40 dop."/>
+        <attribute name="created" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0yNTsxMTozNzozNCBkb3AuOzI5ODM="/>
+        <attribute name="edited" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0yNTsxMTo1Nzo0MCBkb3AuOzE7MzA5MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VarA" type="Integer" array="False" size=""/>
+            <declare name="LastEven" type="Integer" array="False" size=""/>
+            <assign variable="LastEven" expression="0"/>
+            <output expression="&quot;Vnesi &#353;tevilo&quot;" newline="True"/>
+            <input variable="VarA"/>
+            <if expression="LastEven%10==8">
+                <then>
+                    <while expression="LastEven&lt;=VarA">
+                        <output expression="LastEven" newline="True"/>
+                        <assign variable="LastEven" expression="LastEven+2"/>
+                    </while>
+                </then>
+                <else>
+                    <output expression="&quot;&#352;tevilo ima zadnjo &#353;tevko 8&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

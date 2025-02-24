@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uporabnik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 09:03:05 dop."/>
+        <attribute name="created" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0xMC0wNzswODoxMzozMCBkb3AuOzI5NzE="/>
+        <attribute name="edited" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0xMC0wNzswOTowMzowNSBkb3AuOzM7MzA4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Stage, Blank, Full, Count, Count2, Count3" type="Integer" array="False" size=""/>
+            <declare name="Print" type="String" array="False" size=""/>
+            <input variable="Stage"/>
+            <assign variable="Blank" expression="Stage-1"/>
+            <assign variable="Full" expression="1"/>
+            <assign variable="Count" expression="Stage"/>
+            <for variable="Count" start="Stage" end="1" direction="dec" step="1">
+                <assign variable="Print" expression="&quot;&quot;"/>
+                <for variable="Count2" start="0" end="Blank" direction="inc" step="1">
+                    <assign variable="Print" expression="Print&amp;&quot; &quot;"/>
+                </for>
+                <for variable="Count3" start="1" end="Full" direction="inc" step="1">
+                    <assign variable="Print" expression="Print&amp;&quot;*&quot;"/>
+                </for>
+                <output expression="Print" newline="True"/>
+                <assign variable="Blank" expression="Blank-1"/>
+                <assign variable="Full" expression="Full+2"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,12 @@
+---
+username: jacko
+
+shell: usr/bin/bash
+
+packages:
+  - vim
+  - htop
+  - passlib
+
+pip_install_packages:
+  - name: docker

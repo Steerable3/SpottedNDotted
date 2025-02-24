@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uporabnik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-30 09:40:07 dop."/>
+        <attribute name="created" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0zMDswOToxNTowOSBkb3AuOzI5ODQ="/>
+        <attribute name="edited" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0zMDswOTo0MDowNyBkb3AuOzM7MzA5MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VarA, Count" type="Integer" array="False" size=""/>
+            <declare name="Izpis" type="String" array="False" size=""/>
+            <assign variable="Izpis" expression="&quot;*&quot;"/>
+            <output expression="&quot;Vnesi &#353;tevilo stopenj smreke.&quot;" newline="True"/>
+            <input variable="VarA"/>
+            <while expression="VarA&gt;0">
+                <output expression="Izpis" newline="True"/>
+                <assign variable="Izpis" expression="Izpis&amp;&quot;*&quot;"/>
+                <assign variable="VarA" expression="VarA-1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

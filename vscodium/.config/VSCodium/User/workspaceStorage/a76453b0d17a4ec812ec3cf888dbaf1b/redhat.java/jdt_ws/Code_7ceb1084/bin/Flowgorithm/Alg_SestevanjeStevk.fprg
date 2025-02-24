@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Uporabnik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-30 09:15:06 dop."/>
+        <attribute name="created" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0zMDswODoxMToyMSBkb3AuOzI5NzM="/>
+        <attribute name="edited" value="VXBvcmFibmlrOzI3NC1QQy0wMDc7MjAyNC0wOS0zMDswOToxNTowNiBkb3AuOzE7MzA4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Input, Sum, Temp, Temp2" type="Integer" array="False" size=""/>
+            <assign variable="Sum" expression="0"/>
+            <output expression="&quot;Vpi&#353;i &#353;tevilo&quot;" newline="True"/>
+            <input variable="Input"/>
+            <assign variable="Temp2" expression="Input"/>
+            <while expression="Input&gt;0">
+                <assign variable="Temp" expression="Input%10"/>
+                <assign variable="Input" expression="Input/10"/>
+                <assign variable="Temp" expression="Temp*Temp"/>
+                <assign variable="Sum" expression="Sum+Temp"/>
+            </while>
+            <output expression="&quot;Vsota kvadratov &#353;tevk &#353;tevila &quot;&amp;Temp2&amp;&quot; je &quot;&amp;Sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

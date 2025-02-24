@@ -1,0 +1,36 @@
+2025-02-21 22:12:44.091 [info] Extension host with pid 81089 started
+2025-02-21 22:12:44.250 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-21 22:12:44.287 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-02-21 22:12:44.579 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-02-21 22:12:44.676 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-02-21 22:12:44.822 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-02-21 22:12:45.148 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-21 22:12:45.224 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-02-21 22:12:45.235 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-02-21 22:12:45.355 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-02-21 22:12:45.429 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-02-21 22:12:45.566 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-02-21 22:12:45.738 [info] Eager extensions activated
+2025-02-21 22:12:45.821 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:12:45.829 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:12:45.885 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:12:46.625 [error] Error: ENOENT: no such file or directory, open '/tmp/vscodesws_f07b7/jdt_ws/.metadata/.log'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1242:14)
+2025-02-21 22:12:51.228 [error] Error: ENOENT: no such file or directory, open '/tmp/vscodesws_f07b7/jdt_ws/.metadata/.log'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1242:14)
+2025-02-21 22:13:15.845 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-21 22:13:15.882 [info] Extension host with pid 81089 exiting with code 0
+2025-02-21 22:13:17.888 [info] Extension host with pid 81458 started
+2025-02-21 22:13:17.888 [info] Skipping acquiring lock for /home/jacko/.config/VSCodium/User/workspaceStorage/f1b0318d58b39d3fa5f87640757772f0.
+2025-02-21 22:13:17.966 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-21 22:13:18.092 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-21 22:13:18.199 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-21 22:13:18.311 [info] Eager extensions activated
+2025-02-21 22:13:18.334 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:13:18.338 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:13:18.366 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-21 22:13:36.170 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-21 22:22:18.664 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-21 22:22:18.683 [info] Extension host with pid 81458 exiting with code 0

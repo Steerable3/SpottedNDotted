@@ -1,0 +1,349 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-02-05 09:06:58.738'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_ss_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-02-05 09:06:58.778'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-02-05 09:06:59.100'
+}
+{
+  message: 'Feb 05, 2025 9:07:00 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:07:00.805'
+}
+{
+  message: 'Feb 05, 2025 9:07:00 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:07:00.811'
+}
+{
+  message: '[Error - 9:07:02 AM] Feb 5, 2025, 9:07:02 AM An internal error occurred during: "Initialize After Load".\n' +
+    'Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.startBundle(BundleUtils.java:360)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin$1.run(JavaLanguageServerPlugin.java:196)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:07:02.525'
+}
+{
+  message: '[Warn  - 9:07:04 AM] Feb 5, 2025, 9:07:01 AM The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.\n' +
+    'null',
+  level: 'info',
+  timestamp: '2025-02-05 09:07:04.240'
+}
+{
+  message: 'Feb 05, 2025 9:08:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 29\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:08:09.033'
+}
+{
+  message: 'Feb 05, 2025 9:08:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 30\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:08:09.115'
+}
+{
+  message: 'Feb 05, 2025 9:08:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 33\n' +
+    'Feb 05, 2025 9:08:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 32\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:08:09.131'
+}
+{
+  message: 'Feb 05, 2025 9:08:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 176\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:08:22.895'
+}
+{
+  message: 'Feb 05, 2025 9:09:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 386\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:09:00.213'
+}
+{
+  message: 'Feb 05, 2025 9:09:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 387\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:09:00.322'
+}
+{
+  message: 'Feb 05, 2025 9:09:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 388\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:09:00.328'
+}
+{
+  message: 'Feb 05, 2025 9:09:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 390\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:09:00.785'
+}
+{
+  message: 'Feb 05, 2025 9:09:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 391\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:09:00.786'
+}
+{
+  message: 'Feb 05, 2025 9:09:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 392\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:09:01.001'
+}
+{
+  message: 'Feb 05, 2025 9:17:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1129\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:30.623'
+}
+{
+  message: 'Feb 05, 2025 9:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1131\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:31.122'
+}
+{
+  message: 'Feb 05, 2025 9:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1130\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:31.123'
+}
+{
+  message: 'Feb 05, 2025 9:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1132\n' +
+    'Feb 05, 2025 9:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1135\n' +
+    'Feb 05, 2025 9:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1133\n' +
+    'Feb 05, 2025 9:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1137\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:31.625'
+}
+{
+  message: 'Feb 05, 2025 9:17:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1179\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:36.342'
+}
+{
+  message: 'Feb 05, 2025 9:17:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1180\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:36.396'
+}
+{
+  message: 'Feb 05, 2025 9:17:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1181\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:36.438'
+}
+{
+  message: 'Feb 05, 2025 9:17:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1185\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:17:36.601'
+}
+{
+  message: 'Feb 05, 2025 9:18:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1325\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:18:15.028'
+}
+{
+  message: 'Feb 05, 2025 9:18:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1452\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:18:55.776'
+}
+{
+  message: 'Feb 05, 2025 9:18:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1454\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:18:56.039'
+}
+{
+  message: 'Feb 05, 2025 9:19:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1590\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:19:10.430'
+}
+{
+  message: 'Feb 05, 2025 9:19:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1592\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:19:10.643'
+}
+{
+  message: 'Feb 05, 2025 9:19:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1836\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:19:59.003'
+}
+{
+  message: 'Feb 05, 2025 9:24:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2448\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:24:30.732'
+}
+{
+  message: 'Feb 05, 2025 9:24:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2506\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:24:39.779'
+}
+{
+  message: 'Feb 05, 2025 9:24:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2509\n' +
+    'Feb 05, 2025 9:24:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2508\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:24:40.271'
+}
+{
+  message: 'Feb 05, 2025 9:24:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2510\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:24:40.669'
+}
+{
+  message: 'Feb 05, 2025 9:24:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2512\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:24:40.672'
+}
+{
+  message: 'Feb 05, 2025 9:25:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2950\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:25:56.953'
+}
+{
+  message: 'Feb 05, 2025 9:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2953\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:25:57.371'
+}
+{
+  message: 'Feb 05, 2025 9:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2951\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:25:57.371'
+}
+{
+  message: 'Feb 05, 2025 9:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2955\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:25:57.372'
+}
+{
+  message: 'Feb 05, 2025 9:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2956\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:25:57.791'
+}
+{
+  message: 'Feb 05, 2025 9:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2957\n' +
+    'Feb 05, 2025 9:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2960\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:25:57.794'
+}
+{
+  message: 'Feb 05, 2025 9:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2962\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:25:57.815'
+}
+{
+  message: 'Feb 05, 2025 9:31:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4169\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:31:57.964'
+}
+{
+  message: 'Feb 05, 2025 9:37:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5157\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:37:23.217'
+}
+{
+  message: 'Feb 05, 2025 9:37:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5160\n' +
+    'Feb 05, 2025 9:37:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5159\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:37:23.659'
+}
+{
+  message: 'Feb 05, 2025 9:37:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5161\n' +
+    'Feb 05, 2025 9:37:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5164\n' +
+    'Feb 05, 2025 9:37:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5162\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:37:24.071'
+}
+{
+  message: 'Feb 05, 2025 9:42:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 6233\n',
+  level: 'info',
+  timestamp: '2025-02-05 09:42:01.587'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7399, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2025-02-05 09:55:47.736'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-02-05 18:25:50.146'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_ss_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-02-05 18:25:50.182'
+}
+{
+  message: 'Starting Java server with: /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/jacko/.vscode-oss/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/jacko/.config/VSCodium/User/globalStorage/redhat.java/1.39.0/config_linux -data /home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-02-05 18:25:50.580'
+}
+{
+  message: 'Feb 05, 2025 6:25:52 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-05 18:25:52.381'
+}
+{
+  message: 'Feb 05, 2025 6:25:52 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-02-05 18:25:52.387'
+}
+{
+  message: '[Error - 6:25:54 PM] Feb 5, 2025, 6:25:54 PM An internal error occurred during: "Initialize After Load".\n' +
+    'Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.startBundle(BundleUtils.java:360)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin$1.run(JavaLanguageServerPlugin.java:196)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-02-05 18:25:54.077'
+}

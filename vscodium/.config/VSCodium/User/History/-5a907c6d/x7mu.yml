@@ -1,0 +1,10 @@
+username: jacko
+
+password: changeme
+
+shell: bin/bash
+
+packages:
+  - vim
+  - htop
+  - docker.io

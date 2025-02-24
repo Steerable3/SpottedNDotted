@@ -1,0 +1,5 @@
+username: jacko
+packages:
+  - vim
+  - htop
+  - docker

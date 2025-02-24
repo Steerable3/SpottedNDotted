@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java/.2b85846037e43bbb244d4e0313a43bed5c967658-audit.json",
+    "files": [
+        {
+            "date": 1738704381214,
+            "name": "/home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java/client.log.2025-02-04",
+            "hash": "a4288f44f8ba3164df23de49880c9cb01e3d4d023ab95304098a12eb71d31ed5"
+        },
+        {
+            "date": 1738742818660,
+            "name": "/home/jacko/.config/VSCodium/User/workspaceStorage/a76453b0d17a4ec812ec3cf888dbaf1b/redhat.java/client.log.2025-02-05",
+            "hash": "3e5abf33e5f6e931712c2e84d95ba73b05943559c04d666203fad2761af2a785"
+        }
+    ],
+    "hashType": "sha256"
+}

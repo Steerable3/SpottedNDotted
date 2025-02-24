@@ -1,0 +1,9 @@
+Config(
+  prefix: "go",
+  engines: [DuckDuckGo]
+  prefix: "yt",
+  Custom(
+    name: "YouTube",
+    url: "www.youtube.com/results?search_query={}",
+  )
+)

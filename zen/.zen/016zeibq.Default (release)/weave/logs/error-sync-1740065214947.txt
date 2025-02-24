@@ -1,0 +1,131 @@
+1740047126651	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1740047149687	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740047152143	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740047154747	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740047154747	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740047154752	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740047154753	Sync.Engine.Tabs	INFO	Posting 1 records of 5611 bytes with batch=true
+1740047154754	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740047154755	Sync.Collection	DEBUG	POST Length: 5611
+1740047154964	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740047154967	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740047162924	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740047167993	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740047167993	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740047167998	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740047168002	Sync.Engine.Tabs	INFO	Posting 1 records of 5611 bytes with batch=true
+1740047168003	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740047168004	Sync.Collection	DEBUG	POST Length: 5611
+1740047168218	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true
+1740047168222	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1740047322117	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740047324247	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1740047324248	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Linux x86_64) FxSync/1.137.0.20250207111303.desktop
+1740047324248	Sync.Service	INFO	Starting sync at 2025-02-20 11:28:44 in browser session PbmXnWdj0ctP
+1740047324253	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740047324254	Sync.Status	INFO	Resetting Status.
+1740047324254	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1740047324255	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1740047324255	FirefoxAccounts	DEBUG	getOAuthToken enter
+1740047324256	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1740047324256	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1740047324256	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1740047324478	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/info/collections
+1740047324478	Sync.Service	DEBUG	Fetching global metadata record
+1740047324478	Sync.Service	DEBUG	Weave Version: 1.137.0 Local Storage: 5 Remote Storage: 5
+1740047324478	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1740047324478	Sync.Service	INFO	Testing info/collections: {"addons":1739730149.71,"history":1740047127.2,"clients":1740046524.17,"prefs":1740046524.5,"meta":1738440641.63,"workspaces":1739710449.67,"tabs":1740047168.79,"bookmarks":1739710156.49,"crypto":1737038328.78}
+1740047324478	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1737038328.78
+1740047324478	Sync.Synchronizer	INFO	Updating enabled engines: 3 clients.
+1740047324480	Sync.Synchronizer	INFO	Syncing specified engines: ["tabs"]
+1740047324491	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1740047324491	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1740047324493	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1740047324496	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1740047324497	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1740047324500	Sync.Engine.Tabs	INFO	Posting 1 records of 5611 bytes with batch=true
+1740047324501	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1740047324501	Sync.Collection	DEBUG	POST Length: 5611
+1740064916620	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1740064916621	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740064916625	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1740064916631	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740064916634	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1740064916646	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1740064916647	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1740064916649	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740064917551	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740064918653	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Linux x86_64) FxSync/1.137.0.20250207111303.desktop
+1740064918653	Sync.Service	INFO	Starting sync at 2025-02-20 16:21:58 in browser session PbmXnWdj0ctP
+1740064918654	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:127:11
+WrappedLock@util.sys.mjs:141:15
+_lockedSync@service.sys.mjs:1372:6
+sync/<@service.sys.mjs:1337:18
+WrappedCatch@util.sys.mjs:112:27
+sync@service.sys.mjs:1338:7
+1740064918654	Sync.Service	INFO	Cannot start sync: already syncing?
+1740064921188	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1740064921188	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1740064921190	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1740064921193	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740064921194	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Linux x86_64) FxSync/1.137.0.20250207111303.desktop
+1740064921194	Sync.Service	INFO	Starting sync at 2025-02-20 16:22:01 in browser session PbmXnWdj0ctP
+1740064921194	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:127:11
+WrappedLock@util.sys.mjs:141:15
+_lockedSync@service.sys.mjs:1372:6
+sync/<@service.sys.mjs:1337:18
+WrappedCatch@util.sys.mjs:112:27
+sync@service.sys.mjs:1338:7
+1740064921194	Sync.Service	INFO	Cannot start sync: already syncing?
+1740064922954	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740064924746	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740064935554	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740064935567	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936021	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936034	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936340	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936348	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936767	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936773	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936783	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064936855	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064937267	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1740064937267	FirefoxAccounts	DEBUG	getOAuthToken enter
+1740064937267	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1740064937267	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1740064937268	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1740064937530	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1740064940602	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740064943812	Sync.RemoteTabs	INFO	Generating tab list with filter
+1740064943817	Sync.RemoteTabs	DEBUG	Processing client: {"id":"eT2vXg-XD0EY","type":"client","name":"Jakob’s Zen on DESKTOP-D7N8IF9","clientType":"desktop","lastModified":1740011446900,"tabs":[]}
+1740064943818	Sync.RemoteTabs	DEBUG	Processing client: {"id":"tl9fMDkmDjfM","type":"client","name":"jacko’s Zen on nomad-architect","clientType":"desktop","lastModified":1739634782840,"tabs":[]}
+1740064943819	Sync.RemoteTabs	INFO	Final tab list has 2 clients with 5 tabs.
+1740064948312	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740064953329	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740064958409	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740064958419	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064963508	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740064970065	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740064974293	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1740064975069	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740065108644	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740065113695	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740065121036	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1740065126120	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1740065214940	Sync.Collection	ERROR	Request timed out after 300000ms. Aborting.
+1740065214941	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/266102437/storage/tabs?batch=true&commit=true failed: AbortError: The operation was aborted.  Stack trace: _doRequest/timeoutId<()@resource://services-sync/resource.sys.mjs:179
+notify()@resource://gre/modules/Timer.sys.mjs:49
+1740065214941	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1740065214942	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1740065214942	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1740065214942	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1740065214942	Sync.ErrorHandler	DEBUG	tabs failed: [Exception... "Request aborted (timeout)"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "JS frame :: resource://services-sync/resource.sys.mjs :: _doRequest :: line 189"  data: no] Stack trace: _doRequest()@resource://services-sync/resource.sys.mjs:189
+1740065214943	Sync.Synchronizer	INFO	Sync completed at 2025-02-20 16:26:54 after 17890.69 secs.
+1740065214943	Sync.Declined	DEBUG	Handling remote declined: ["creditcards","passwords"]
+1740065214943	Sync.Declined	DEBUG	Handling local declined: ["creditcards","passwords"]
+1740065214943	Sync.Declined	DEBUG	Declined changed? false
+1740065214943	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1740065214945	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1740065214946	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
